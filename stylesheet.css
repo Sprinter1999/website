@@ -186,6 +186,9 @@ h1 .cn {
 .hero-photo img {
   display: block;
   width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   border-radius: 3px;
 }
 
@@ -597,7 +600,8 @@ footer p {
 
   .hero-photo {
     order: -1;
-    width: 108px;
+    width: 96px;
+    margin: 0;
   }
 
   section {
