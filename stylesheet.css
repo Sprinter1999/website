@@ -569,6 +569,16 @@ footer p {
   margin: 0;
 }
 
+footer .motto {
+  flex: 1 0 100%;
+  margin-top: 16px;
+  font-family: var(--serif);
+  font-size: 15px;
+  font-style: italic;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+}
+
 /* ---------- responsive ---------- */
 
 @media (max-width: 640px) {
